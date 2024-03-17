@@ -22,5 +22,8 @@ class store {
       this.resultPrice -= data;
     }
   }
+  priceReset(){
+    this.resultPrice = 0;
+  }
 }
 export const myStore = new store();

@@ -27,6 +27,7 @@ export const BasketOrders: FC<NavIdProps> = observer(({ id }) => {
     getOrders()
       .then((data: Order[]) => {
         setIsLoading(false);
+        myStore.priceReset();
         myStore.setOrders(data);
       })
       .catch((err) => {
