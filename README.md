@@ -8,7 +8,8 @@
 Запустите ваш мини апп
 
 ```sh
- yarn start
+ npm install
+ npm run start
 ```
 
 Перейдите на [devportal](https://dev.vk.com/ru) или в [управление](https://vk.com/apps?act=manage) и создайте новый мини апп.  
